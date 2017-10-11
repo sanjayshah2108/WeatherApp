@@ -33,6 +33,9 @@
 		AF207A5D19F472D300FD95BF /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A5019F472D300FD95BF /* snow.png */; };
 		AF207A5E19F472D300FD95BF /* Sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A5119F472D300FD95BF /* Sunny.png */; };
 		AF207A5F19F472D300FD95BF /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A5219F472D300FD95BF /* wind.png */; };
+		CE7B29B21F8E984200254D2A /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7B29B11F8E984200254D2A /* City.m */; };
+		CE7B29B51F8E992500254D2A /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7B29B41F8E992500254D2A /* CityViewController.m */; };
+		CE7B29B81F8E9C3900254D2A /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7B29B71F8E9C3900254D2A /* DetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,14 @@
 		AF207A5019F472D300FD95BF /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
 		AF207A5119F472D300FD95BF /* Sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sunny.png; sourceTree = "<group>"; };
 		AF207A5219F472D300FD95BF /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+		CE7B29B01F8E984200254D2A /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		CE7B29B11F8E984200254D2A /* City.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		CE7B29B31F8E992500254D2A /* CityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		CE7B29B41F8E992500254D2A /* CityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		CE7B29B61F8E9C3900254D2A /* DetailedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		CE7B29B71F8E9C3900254D2A /* DetailedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		CE7B29BB1F8ED12700254D2A /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = London.jpg; sourceTree = "<group>"; };
+		CE7B29BC1F8ED12700254D2A /* Vancouver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vancouver.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +148,12 @@
 			children = (
 				60ADD9591989CFDB0086A6BC /* LHWAppDelegate.h */,
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
+				CE7B29B61F8E9C3900254D2A /* DetailedViewController.h */,
+				CE7B29B71F8E9C3900254D2A /* DetailedViewController.m */,
+				CE7B29B31F8E992500254D2A /* CityViewController.h */,
+				CE7B29B41F8E992500254D2A /* CityViewController.m */,
+				CE7B29B01F8E984200254D2A /* City.h */,
+				CE7B29B11F8E984200254D2A /* City.m */,
 				AF207A4519F472D300FD95BF /* images */,
 				60ADD95C1989CFDB0086A6BC /* Images.xcassets */,
 				60ADD9511989CFDB0086A6BC /* Supporting Files */,
@@ -177,6 +194,8 @@
 		AF207A4519F472D300FD95BF /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CE7B29BB1F8ED12700254D2A /* London.jpg */,
+				CE7B29BC1F8ED12700254D2A /* Vancouver.png */,
 				AF207A4619F472D300FD95BF /* clear-day.png */,
 				AF207A4719F472D300FD95BF /* clear-night.png */,
 				AF207A4819F472D300FD95BF /* cloudy-night.png */,
@@ -306,6 +325,9 @@
 			files = (
 				60ADD95B1989CFDB0086A6BC /* LHWAppDelegate.m in Sources */,
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,
+				CE7B29B21F8E984200254D2A /* City.m in Sources */,
+				CE7B29B51F8E992500254D2A /* CityViewController.m in Sources */,
+				CE7B29B81F8E9C3900254D2A /* DetailedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
